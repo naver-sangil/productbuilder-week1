@@ -1,1 +1,68 @@
-/* Add styles here */
+/* General Body Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+    background-image: subtle-noise.png; /* Subtle noise texture */
+    color: #fff; /* White text */
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #2a2a2a; /* Slightly lighter dark shade */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 120px rgba(138, 43, 226, 0.3); /* Deep shadow and glow */
+}
+
+/* Title */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #944dff; /* Vibrant purple */
+    text-shadow: 0 0 10px rgba(148, 77, 255, 0.7), 0 0 20px rgba(148, 77, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+/* Generate Button */
+#generator-btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(145deg, #944dff, #8a2be2); /* Gradient background */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.6), inset 0 -2px 5px rgba(0,0,0,0.3);
+}
+
+#generator-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(138, 43, 226, 0.8), inset 0 -2px 5px rgba(0,0,0,0.3);
+}
+
+#generator-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 10px rgba(138, 43, 226, 0.8), inset 0 -2px 5px rgba(0,0,0,0.3);
+}
+
+/* Lotto Numbers Container */
+.lotto-numbers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow numbers to wrap on smaller screens */
+    gap: 15px; /* Spacing between numbers */
+    margin-top: 40px;
+}
+
+/* Individual Lotto Number */
+lotto-number-display {
+    /* Web component styles will be encapsulated */
+}

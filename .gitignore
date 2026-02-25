@@ -1,0 +1,17 @@
+# Logs
+*.log
+firebase-debug.log*
+.firebase/
+firestore-debug.log*
+ui-debug.log*
+
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idx/
+
+# OS files
+.DS_Store
+Thmubs.db
