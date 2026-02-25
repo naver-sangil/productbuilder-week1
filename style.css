@@ -53,6 +53,14 @@ h1 {
     box-shadow: 0 2px 10px rgba(138, 43, 226, 0.8), inset 0 -2px 5px rgba(0,0,0,0.3);
 }
 
+#generator-btn:disabled {
+    background: #444;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.7;
+}
+
 /* Lotto Numbers Container */
 .lotto-numbers {
     display: flex;
